@@ -1,0 +1,30 @@
+{
+  "name": "projects-co-id-scraper",
+  "version": "1.0.0",
+  "description": "Projects.co.id scraper with Crawlee and scheduled execution",
+  "type": "module",
+  "main": "crawlee-scraper.js",
+  "scripts": {
+    "scrape": "node crawlee-scraper.js",
+    "scrape:schedule": "node scheduler.js",
+    "test": "node test-scraper.js"
+  },
+  "keywords": [
+    "scraper",
+    "crawlee",
+    "projects-co-id",
+    "web-scraping"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "crawlee": "^3.15.3",
+    "playwright": "^1.40.0",
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0"
+  }
+}
+
