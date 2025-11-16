@@ -13,7 +13,7 @@ This repository contains all bot development projects, including:
 ## 📁 Structure
 
 ```
-ai-bot-development/
+ai-bot-agent/
 ├── bots/                    # Individual bot projects
 │   ├── projects-co-id/      # Projects.co.id scraper
 │   ├── jobstreet/           # JobStreet scraper (planned)
