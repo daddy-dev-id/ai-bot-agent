@@ -1,0 +1,18 @@
+# Projects.co.id Scraper Dependencies
+
+# Browser Automation
+playwright>=1.40.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# HTML Parsing (backup/fallback)
+beautifulsoup4>=4.12.0
+lxml>=5.0.0
+
+# HTTP Requests (for API calls if needed)
+requests>=2.31.0
+
+# Utilities
+python-dateutil>=2.8.2
+
